@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(28, 29, 49) ;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.entire-body {
+    width: 600px;
+    margin: 0 auto;
+}
+.flexbox-container {
+display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.flexbox-1 {
+    flex: 1;
+    margin-top: 150px;
+    text-transform: capitalize;
+}
+.flexbox-1 button {
+    color: black;
+    background-color: rgb(109, 168, 50);
+    width: 200px;
+    height: 35px;
+    border: none;
+    font-size: small;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+.flexbox-1 button:hover {
+    color:#224E6E;
+}
+.flexbox-2 {
+    flex: 2;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.flexbox-2 img {
+    height: 300px;
+    width: 300px;
+}
+.nav-bar ul {
+    display: flex;
+    padding-left: 0px;
+    width: 300px;
+    justify-content:space-between ;
+}
+.nav-bar ul li {
+    text-transform: capitalize;
+    list-style-type: none;
+    cursor: pointer;
+    transition: .3s;
+}
+.nav-bar ul li:hover { 
+    color: rgb(109, 168, 50);
+}
+button {
+    color: white;
+    background-color:transparent;
+    width: 200px;
+    height: 35px;
+    border: 1px thin white;
+    font-size: small;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover {
+    color:#224E6E;
+}
